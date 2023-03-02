@@ -4,6 +4,7 @@ function container() {
   const container = document.createElement("div");
 
   const title = document.createElement("h3");
+  title.className = "title";
   title.innerText = "Unit Circle";
 
   container.className = "container";
